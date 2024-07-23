@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>flexboxpractise</title>
+    <style>
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content:space-between;
+    height: 20px;
+
+}
+.flex{
+  display: flex;
+  max-width: 300px;
+
+  flex:1;
+  flex-direction: row;
+  background-color: lightpink;
+}
+.flexboxe{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lastflex{
+  display: flex;
+justify-content: space-between;
+flex-direction: row;
+border-style: solid;
+border-color: rgb(192, 185, 185);
+height: 50px;
+margin-top: 30px;
+align-items: center;
+
+}
+
+
+    </style>
+    </head>
+    <body>
+        
+    <div class="flexbox">
+        <div style="background-color: lightblue;
+        width: 200px;">200px</div>
+        <div style="background-color: lightgreen;
+        width: 75px;"> 75px</div>
+   
+  </div>
+
+  <div class="flexbox">
+    <div style="background-color: lightblue;
+    width: 50px;">50px</div>
+    <div class="flex">item2</div>
+    <div style="background-color: lightgreen;
+    width: 75px;"> 75px</div>
+
+</div>
+
+
+<div class="flexboxe">
+  <div style="background-color: lightblue;">item1</div>
+  <div style="background-color: rgb(255, 108, 49);"">item2</div>
+  <div style="background-color: lightgreen;"> item3</div>
+  <div style="background-color: rgb(62, 58, 252);">item4</div>
+</div>
+
+<div class="lastflex">
+  <div style="background-color: lightpink;">item1</div>
+   <div style="background-color: rgb(22, 245, 22);">item2</div>
+</div>
+    </body>
+</html>

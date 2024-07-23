@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            postion practise
+        </title>
+        <style>
+
+            .container{
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                column-gap: 20px;
+            }
+            .x{
+                position: relative;
+
+            }
+            .time{
+                position: absolute;
+                top:115px;
+                left:97px;
+                background-color: black;
+                color: white;
+                padding: 3px 5px;
+                border-radius: 2px;
+                font-size: 13px;
+                font-family: Arial;
+
+            }
+            .y{
+                position: relative;
+
+            }
+        </style>
+    </head>
+
+    <body style="height: 1000px;">
+       <div class="container">
+            <div class="x">
+                <div><img src="/puff.jpg"></div>
+                 <div class="time">5:40</div>
+            </div>
+
+
+            <div class="y">
+                <div><img src="/papaya.jpg"></div>
+                <div class="time">9:30</div>
+            </div>
+        </div>
+
+    </body>
+</html>

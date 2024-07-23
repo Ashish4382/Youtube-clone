@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Puff for sale
+        </title>
+        <style>
+  .container {
+    display: inline-block;
+    position: relative;
+  }
+  .puff {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .discount {
+    padding: 2px 5px;
+    position: absolute;
+    right: 0;
+    top: 4px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+  }
+  .secdiv {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <img class="puff" src="/puff.jpg">
+            <div class="discount">20% OFF</div>
+            <div class="secdiv"> 
+                <button class="add">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
